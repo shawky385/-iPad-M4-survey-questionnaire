@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPad M4 Survey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        .question-section {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        .question-section:last-child {
+            border-bottom: none;
+        }
+        .question {
+            margin-bottom: 15px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: normal;
+        }
+        .options input[type="radio"] {
+            margin-right: 10px;
+        }
+        .submit-btn {
+            display: block;
+            width: 200px;
+            margin: 30px auto 0;
+            padding: 15px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .submit-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>iPad M4 Survey Questionnaire</h1>
+        <p>Please answer the following questions regarding the new Apple iPad Pro (M4) edition.</p>
+        <form id="ipadSurveyForm">
+
+
+
+            <div class="question-section">
+                <h2>General Questions</h2>
+
+                <div class="question" id="q1">
+                    <p>1. What is the primary processor powering the new iPad Pro (M4) models?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q1" value="a"> a) A17 Bionic</label>
+                        <label><input type="radio" name="q1" value="b"> b) M3</label>
+                        <label><input type="radio" name="q1" value="c"> c) M4</label>
+                        <label><input type="radio" name="q1" value="d"> d) A16 Bionic</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q2">
+                    <p>2. What display technology is featured in the new iPad Pro (M4) models?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q2" value="a"> a) Liquid Retina</label>
+                        <label><input type="radio" name="q2" value="b"> b) Retina XDR</label>
+                        <label><input type="radio" name="q2" value="c"> c) Ultra Retina XDR (OLED)</label>
+                        <label><input type="radio" name="q2" value="d"> d) ProMotion LCD</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q3">
+                    <p>3. What are the two available screen sizes for the iPad Pro (M4)?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q3" value="a"> a) 10.9-inch and 12.9-inch</label>
+                        <label><input type="radio" name="q3" value="b"> b) 11-inch and 13-inch</label>
+                        <label><input type="radio" name="q3" value="c"> c) 10.5-inch and 12.9-inch</label>
+                        <label><input type="radio" name="q3" value="d"> d) 11-inch and 14-inch</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q4">
+                    <p>4. Which of the following is a new accessory introduced alongside the iPad Pro (M4)?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q4" value="a"> a) Magic Keyboard Folio</label>
+                        <label><input type="radio" name="q4" value="b"> b) Apple Pencil (1st Generation)</label>
+                        <label><input type="radio" name="q4" value="c"> c) Apple Pencil Pro</label>
+                        <label><input type="radio" name="q4" value="d"> d) Smart Keyboard</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q5">
+                    <p>5. The M4 chip in the iPad Pro is built on what process technology?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q5" value="a"> a) 7nm</label>
+                        <label><input type="radio" name="q5" value="b"> b) 5nm</label>
+                        <label><input type="radio" name="q5" value="c"> c) 3nm</label>
+                        <label><input type="radio" name="q5" value="d"> d) 2nm</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q6">
+                    <p>6. What is the maximum internal storage option available for the iPad Pro (M4)?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q6" value="a"> a) 512 GB</label>
+                        <label><input type="radio" name="q6" value="b"> b) 1 TB</label>
+                        <label><input type="radio" name="q6" value="c"> c) 2 TB</label>
+                        <label><input type="radio" name="q6" value="d"> d) 4 TB</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q7">
+                    <p>7. The new Magic Keyboard for iPad Pro (M4) features a row of what?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q7" value="a"> a) Media control keys</label>
+                        <label><input type="radio" name="q7" value="b"> b) Function keys</label>
+                        <label><input type="radio" name="q7" value="c"> c) Customizable shortcut keys</label>
+                        <label><input type="radio" name="q7" value="d"> d) Numeric keypad</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q8">
+                    <p>8. What is the primary material used for the new iPad Pro (M4)'s enclosure?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q8" value="a"> a) Aluminum</label>
+                        <label><input type="radio" name="q8" value="b"> b) Stainless Steel</label>
+                        <label><input type="radio" name="q8" value="c"> c) Titanium</label>
+                        <label><input type="radio" name="q8" value="d"> d) Glass</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q9">
+                    <p>9. What is the main improvement of the Ultra Retina XDR display on the M4 iPad Pro?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q9" value="a"> a) Higher refresh rate</label>
+                        <label><input type="radio" name="q9" value="b"> b) Brighter and more vivid OLED</label>
+                        <label><input type="radio" name="q9" value="c"> c) Lower power consumption</label>
+                        <label><input type="radio" name="q9" value="d"> d) Wider color gamut</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q10">
+                    <p>10. Which connectivity standard is supported by the iPad Pro (M4) for faster wireless speeds?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q10" value="a"> a) Wi-Fi 5</label>
+                        <label><input type="radio" name="q10" value="b"> b) Wi-Fi 6</label>
+                        <label><input type="radio" name="q10" value="c"> c) Wi-Fi 6E</label>
+                        <label><input type="radio" name="q10" value="d"> d) Wi-Fi 7</label>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="question-section">
+                <h2>Performance and Chip Questions</h2>
+
+                <div class="question" id="q11">
+                    <p>11. How many CPU cores does the M4 chip in the iPad Pro have in its base configuration?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q11" value="a"> a) 8 cores</label>
+                        <label><input type="radio" name="q11" value="b"> b) 9 cores</label>
+                        <label><input type="radio" name="q11" value="c"> c) 10 cores</label>
+                        <label><input type="radio" name="q11" value="d"> d) 12 cores</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q12">
+                    <p>12. The M4 chip's Neural Engine is designed to accelerate what type of tasks?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q12" value="a"> a) Graphics rendering</label>
+                        <label><input type="radio" name="q12" value="b"> b) Machine learning and AI</label>
+                        <label><input type="radio" name="q12" value="c"> c) Video encoding</label>
+                        <label><input type="radio" name="q12" value="d"> d) Network processing</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q13">
+                    <p>13. What is the approximate memory bandwidth of the M4 chip?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q13" value="a"> a) 60 GB/s</label>
+                        <label><input type="radio" name="q13" value="b"> b) 80 GB/s</label>
+                        <label><input type="radio" name="q13" value="c"> c) 100 GB/s</label>
+                        <label><input type="radio" name="q13" value="d"> d) 120 GB/s</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q14">
+                    <p>14. Compared to the M2 chip, how much faster is the M4 chip for CPU performance?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q14" value="a"> a) Up to 1.2x</label>
+                        <label><input type="radio" name="q14" value="b"> b) Up to 1.5x</label>
+                        <label><input type="radio" name="q14" value="c"> c) Up to 2x</label>
+                        <label><input type="radio" name="q14" value="d"> d) Up to 3x</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q15">
+                    <p>15. The M4 chip introduces a new feature for pro rendering applications. What is it?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q15" value="a"> a) Hardware-accelerated ray tracing</label>
+                        <label><input type="radio" name="q15" value="b"> b) Dedicated video encoder</label>
+                        <label><input type="radio" name="q15" value="c"> c) Advanced image signal processor</label>
+                        <label><input type="radio" name="q15" value="d"> d) Enhanced audio engine</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="question-section">
+                <h2>Display and Visual Questions</h2>
+
+                <div class="question" id="q16">
+                    <p>16. What is the peak brightness of the Ultra Retina XDR display for SDR content?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q16" value="a"> a) 600 nits</label>
+                        <label><input type="radio" name="q16" value="b"> b) 800 nits</label>
+                        <label><input type="radio" name="q16" value="c"> c) 1000 nits</label>
+                        <label><input type="radio" name="q16" value="d"> d) 1600 nits</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q17">
+                    <p>17. The Ultra Retina XDR display uses what technology to achieve precise brightness and contrast?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q17" value="a"> a) Mini-LED</label>
+                        <label><input type="radio" name="q17" value="b"> b) Dual-layer OLED</label>
+                        <label><input type="radio" name="q17" value="c"> c) Tandem OLED</label>
+                        <label><input type="radio" name="q17" value="d"> d) Quantum Dot LED</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q18">
+                    <p>18. What is the refresh rate of the ProMotion display on the iPad Pro (M4)?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q18" value="a"> a) Fixed 60Hz</label>
+                        <label><input type="radio" name="q18" value="b"> b) Up to 90Hz</label>
+                        <label><input type="radio" name="q18" value="c"> c) Up to 120Hz</label>
+                        <label><input type="radio" name="q18" value="d"> d) Up to 144Hz</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q19">
+                    <p>19. The new iPad Pro (M4) is significantly thinner than its predecessor. What is the thickness of the 13-inch model?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q19" value="a"> a) 5.1 mm</label>
+                        <label><input type="radio" name="q19" value="b"> b) 5.3 mm</label>
+                        <label><input type="radio" name="q19" value="c"> c) 5.7 mm</label>
+                        <label><input type="radio" name="q19" value="d"> d) 6.1 mm</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q20">
+                    <p>20. What is the primary benefit of the new display's nano-texture glass option?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q20" value="a"> a) Increased durability</label>
+                        <label><input type="radio" name="q20" value="b"> b) Reduced glare</label>
+                        <label><input type="radio" name="q20" value="c"> c) Enhanced color accuracy</label>
+                        <label><input type="radio" name="q20" value="d"> d) Improved touch responsiveness</label>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="question-section">
+                <h2>Accessories and Other Features</h2>
+
+                <div class="question" id="q21">
+                    <p>21. The Apple Pencil Pro introduces which new interaction feature?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q21" value="a"> a) Double-tap</label>
+                        <label><input type="radio" name="q21" value="b"> b) Squeeze</label>
+                        <label><input type="radio" name="q21" value="c"> c) Swipe</label>
+                        <label><input type="radio" name="q21" value="d"> d) Rotate</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q22">
+                    <p>22. What is the main improvement of the new Magic Keyboard for iPad Pro (M4) compared to previous versions?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q22" value="a"> a) Lighter weight</label>
+                        <label><input type="radio" name="q22" value="b"> b) Larger trackpad with haptic feedback</label>
+                        <label><input type="radio" name="q22" value="c"> c) Backlit keys</label>
+                        <label><input type="radio" name="q22" value="d"> d) New color options</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q23">
+                    <p>23. The front-facing camera on the iPad Pro (M4) is now located where?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q23" value="a"> a) Top bezel (portrait)</label>
+                        <label><input type="radio" name="q23" value="b"> b) Side bezel (landscape)</label>
+                        <label><input type="radio" name="q23" value="c"> c) Under the display</label>
+                        <label><input type="radio" name="q23" value="d"> d) Rear of the device</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q24">
+                    <p>24. What is the maximum video recording capability of the iPad Pro (M4) rear camera?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q24" value="a"> a) 1080p at 60 fps</label>
+                        <label><input type="radio" name="q24" value="b"> b) 4K at 30 fps</label>
+                        <label><input type="radio" name="q24" value="c"> c) 4K at 60 fps</label>
+                        <label><input type="radio" name="q24" value="d"> d) 8K at 30 fps</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q25">
+                    <p>25. The iPad Pro (M4) supports what cellular connectivity option?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q25" value="a"> a) 4G LTE</label>
+                        <label><input type="radio" name="q25" value="b"> b) 5G</label>
+                        <label><input type="radio" name="q25" value="c"> c) 3G</label>
+                        <label><input type="radio" name="q25" value="d"> d) Wi-Fi only</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q26">
+                    <p>26. What is the primary purpose of the LiDAR Scanner on the iPad Pro (M4)?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q26" value="a"> a) Enhanced audio recording</label>
+                        <label><input type="radio" name="q26" value="b"> b) Improved augmented reality (AR) experiences</label>
+                        <label><input type="radio" name="q26" value="c"> c) Faster Wi-Fi connectivity</label>
+                        <label><input type="radio" name="q26" value="d"> d) More accurate GPS tracking</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q27">
+                    <p>27. Which biometric authentication method does the iPad Pro (M4) primarily use?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q27" value="a"> a) Touch ID</label>
+                        <label><input type="radio" name="q27" value="b"> b) Face ID</label>
+                        <label><input type="radio" name="q27" value="c"> c) Iris Scan</label>
+                        <label><input type="radio" name="q27" value="d"> d) Fingerprint sensor</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q28">
+                    <p>28. What is the primary benefit of the iPad Pro (M4)\'s new thermal architecture?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q28" value="a"> a) Longer battery life</label>
+                        <label><input type="radio" name="q28" value="b"> b) Quieter operation</label>
+                        <label><input type="radio" name="q28" value="c"> c) Sustained performance during demanding tasks</label>
+                        <label><input type="radio" name="q28" value="d"> d) Reduced weight</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q29">
+                    <p>29. The iPad Pro (M4) is marketed towards which type of users?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q29" value="a"> a) Casual users and students</label>
+                        <label><input type="radio" name="q29" value="b"> b) Professional users and creatives</label>
+                        <label><input type="radio" name="q29" value="c"> c) Gamers</label>
+                        <label><input type="radio" name="q29" value="d"> d) Elderly users</label>
+                    </div>
+                </div>
+
+                <div class="question" id="q30">
+                    <p>30. What is the rumored release timeframe for the next generation (M5) iPad Pro?</p>
+                    <div class="options">
+                        <label><input type="radio" name="q30" value="a"> a) Early 2025</label>
+                        <label><input type="radio" name="q30" value="b"> b) Late 2025 or early 2026</label>
+                        <label><input type="radio" name="q30" value="c"> c) Mid-2026</label>
+                        <label><input type="radio" name="q30" value="d"> d) Not yet rumored</label>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Survey</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
